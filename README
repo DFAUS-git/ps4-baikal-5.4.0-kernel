@@ -1,0 +1,26 @@
+
+-5.4.0 patched Playstation 4 linux kernel for Playstation 4 Slim and Pro Baikal based southbridges
+
+-Wifi and Bluetooth driver support is implemented into the kernel source, credits 'noob404' for the driver source ported from whitehax0r 5.4.213-noob404-wifi-fix
+
+-Compiling this kernel source may encounter compiling errors with later distributions (i.e.Fedora 39,38), to resolve compile with a older GCC version
+
+
+Linux kernel
+============
+
+There are several guides for kernel developers and users. These guides can
+be rendered in a number of formats, like HTML and PDF. Please read
+Documentation/admin-guide/README.rst first.
+
+In order to build the documentation, use ``make htmldocs`` or
+``make pdfdocs``.  The formatted documentation can also be read online at:
+
+    https://www.kernel.org/doc/html/latest/
+
+There are various text files in the Documentation/ subdirectory,
+several of them using the Restructured Text markup notation.
+
+Please read the Documentation/process/changes.rst file, as it contains the
+requirements for building and running the kernel, and information about
+the problems which may result by upgrading your kernel.
