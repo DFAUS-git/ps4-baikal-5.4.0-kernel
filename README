@@ -5,6 +5,8 @@
 
 -Compiling this kernel source may encounter compiling errors with later distributions (i.e.Fedora 39,38), to resolve compile with a older GCC version
 
+-cp .config config
+
 
 Linux kernel
 ============
